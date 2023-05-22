@@ -7,12 +7,12 @@ $tabCount = $input
 echo "ランダム選択開始します、エピソード番号のセレクトボックスをクリックしてください"
 #この間にトップ画面をAmazon Prime Videoのシリーズ画面にする
  [Console]::Beep(294, 500)
-Start-Sleep -s 30
+Start-Sleep -s 15
 echo "Start"
  [Console]::Beep(294, 500)
 
 #PageDownの最大値を設定
-$rndMax = $tabCount
+$rndMax = $tabCount-1
 
 $rnd = Get-Random -Maximum ($rndMax) -Minimum 0
 
