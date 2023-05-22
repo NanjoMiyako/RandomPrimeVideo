@@ -31,7 +31,7 @@ for($i=0; $i -lt $rnd; $i++){
 [System.Windows.Forms.SendKeys]::SendWait("{TAB}")
 [System.Windows.Forms.SendKeys]::SendWait("{TAB}")
 [System.Windows.Forms.SendKeys]::SendWait("{TAB}")
-[System.Windows.Forms.SendKeys]::SendWait("{TAB}")
+#[System.Windows.Forms.SendKeys]::SendWait("{TAB}")
 Start-Sleep -s 1
 
 }
